@@ -1,0 +1,28 @@
+<section id="home-index">
+
+    <div class="video-container">
+        <%# <video src="video.mp4" autoplay muted  loop playsinline></video> %>
+       
+       <%= video_tag(
+           '/assets/videos/video.mp4', 
+           id: 'background',
+           autoplay: true,
+           loop: true,
+           muted: true
+        )
+        %>
+       
+       
+    </div>
+    <!-- View my work button -->
+    <div class="middle-text">
+        <h1>Hello, I’m <span class="red-highlight">Chinonso John Nkpolukwu</span>.<br> I’m a full-stack web developer.</h1>
+        <%= link_to "View my work", root_path, class:"fas fa-arrow-right" %>
+    </div>
+
+    <%# <a href="./pages/all-projects.html" class="header-content">
+        <h1>Hello, I’m <span class="red-highlight">Chinonso John Nkpolukwu</span>.<br> I’m a full-stack web developer.</h1>
+        <button class="showcase-button">View my work <i class="fas fa-arrow-right"></i></button>
+    </a> %>
+
+</section>
