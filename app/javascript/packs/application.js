@@ -8,6 +8,20 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+window.onload=function(){
+    const open = document.getElementById("open")
+    const mainMenu = document.getElementById("mainMenu")
+    const middleText = document.querySelector('.middle-text')
+
+    open.addEventListener('click', () => {
+        mainMenu.classList.toggle('display-block')
+        middleText.classList.toggle('display-none')
+    })
+
+
+}

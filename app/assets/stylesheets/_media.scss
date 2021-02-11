@@ -1,65 +1,202 @@
-// Hamburger menu nav
-@media screen and (max-width: 375px) {
-    
-    #mainMenu, .right input {
-        // for the checkbox
-        display:none;
+
+// @media screen and (max-width: 375px) {
+//     // Hamburger menu nav
+//     #mainMenu, .right input {
+//         // for the checkbox
+//         display:block;
+        
+//     }
+//     #menuShowHide{
+//         display: none;
+//     }
+//     #menuShowHide+label:before {
+//         content:"Show menu";
+//         cursor: pointer;
+//         text-decoration: none;
+//     }
+//     #menuShowHide ~ #mainMenu {
+//         display: none;
+//     }
+//     #menuShowHide ~ #mainMenu{
+//         display:none;
+        
+//     }
+//     #menuShowHide:checked ~ #mainMenu {
+//         display:block;
+//         position: relative;
+//         bottom: 5px;
+//         float: right;
+//         list-style: none;
+//         color: #fff; 
+//         cursor: pointer;
+//         text-decoration: none;
+//     }
+//     #menuShowHide+label {
+//         // position: relative;
+//         position: absolute;
+//         top: 30px;
+//         left: 300px;
+//         // float: right;
+//         padding: 0.5em;
+//         margin: -4.75em 0.5em 0;
+//         border: transparent;
+//         background: transparent;
+//         color: #FFF;
+//         border-radius: 0.5em;
+//         margin-top: -25px;
+//         cursor: pointer;
+//     }
+//     #menuShowHide+label:active,
+//     #menuShowHide+label:focus,
+//     #menuShowHide+label:hover {
+//         background: black;
+//     }
+//     #menuShowHide+label:after, #menuShowHide+label:before {
+//         content: "";
+//         display: block;
+//         width: 2em;
+//         height: 0.5em;
+//         border: solid #FFF;
+//         border-width: 0.25em 0;
+//     }
+//     #menuShowHide+label:after {
+//         border-top: 0;
+//     }
+// }
+
+
+@media screen and (max-width: 700px){
+
+    //Hamburger
+
+    #hamburger-menu #mainMenu{
+        height: 75vh;
+        position: relative;
+        top: 300px;
+        left: -98px;
+        background-color: rgba(27, 36, 47, 1);
+        background-color: rgba(83, 104, 120, 0.9);
+        margin-top: 60px;
+        border-radius: 20px;
+        border: 1px solid black;
+        padding-left: 120px;
+        padding-right: 100px;
+        width: 100px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        // display: block;
+    }
+    #hamburger-menu #mainMenu li {
+        position: relative;
+        left: -25px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        z-index: 2;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        a{
+            color: #e31b6d;
+        }
+    }
+    #home-header #hamburger-menu .circle button#open {
+        display: block;
+    }
+
+    // Header /////
+    #home-header{
+        .hero-text{
+            font-size: 14px;
+        }
+        ul, li{
+            display: none;
+        }
+    }
+
+    // Home-index /////
+    #home-index{
+        z-index: 0;
+        position: absolute;
+
+        .middle-text{
+            width: 100%;
+
+            .img{
+                width: 180px;
+                height: 180px;
+                position: absolute;
+                top: 150px;
+            }
+            .inner-text{
+                height: 60%;
+                position: absolute;
+                top: 420px;
+                // left: 15%;
+                
+            }
+            h1{
+                font-size: 25px;
+                font-weight: 600;
+                text-shadow: 4px 4px black;
+            }
+        
+        }
         
     }
-    #menuShowHide{
-        display: none;
-    }
-    #menuShowHide+label:before {
-        content:"Show menu";
-        cursor: pointer;
-        text-decoration: none;
-    }
-    #menuShowHide:checked ~ #mainMenu {
-        display:block;
-        position: relative;
-        bottom: 5px;
-        float: right;
-        list-style: none;
-        color: #fff; 
-        cursor: pointer;
-        text-decoration: none;
-    }  
-    #menuShowHide+label {
-        // position: relative;
-        position: absolute;
-        top: 30px;
-        left: 300px;
-        // float: right;
-        padding: 0.5em;
-        margin: -4.75em 0.5em 0;
-        border: transparent;
-        background: transparent;
-        color: #FFF;
-        border-radius: 0.5em;
-        margin-top: -25px;
-        cursor: pointer;
-    }
-    #menuShowHide+label:active,
-    #menuShowHide+label:focus,
-    #menuShowHide+label:hover {
-        background: black;
-    }
-    #menuShowHide+label:after, #menuShowHide+label:before {
-        content: "";
-        display: block;
-        width: 2em;
-        height: 0.5em;
-        border: solid #FFF;
-        border-width: 0.25em 0;
-    }
-    #menuShowHide+label:after {
-        border-top: 0;
+
+
+}
+
+@media screen and (max-width: 1135px){
+    #home-index{
+        .middle-text{
+            width: 100%;
+            padding: 20px;
+            .img{
+                width: 260px;
+                height: 220px;
+                border: solid 3px #e31b6d;
+                border-radius: 48%;
+                // // z-index: 1;
+                // background-color: #e31b6d;
+                // background-image: url('pic2.png');
+                // background-position: center center;
+                // background-repeat: no-repeat;
+                // background-size: cover;
+                padding: 10px;
+            }
+            .inner-text{
+                height: 100%;
+                width: 100%;
+                
+            }
+            h1{
+                font-size: 27px;
+                padding-left: 40px;
+                
+            }
+            .btn{
+                margin-left: 40px;
+            }
+            
+        
+        }
+        
     }
 }
 
-@media screen and (min-width: 375px){
-    #mainMenu, .right input {
-        // for the checkbox
-        display:none;
-    }
+
+
+
+
+
+
+.display-none{
+    display: none !important;
+}
+.display-block{
+    display: block !important;
 }
