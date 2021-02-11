@@ -129,13 +129,17 @@
                 height: 180px;
                 position: absolute;
                 top: 150px;
+                padding: 110px;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
             }
             .inner-text{
+                padding-top: 25px;
                 height: 60%;
                 position: absolute;
                 top: 420px;
-                // left: 15%;
-                
+                left: 15%;
             }
             h1{
                 font-size: 25px;
@@ -150,7 +154,7 @@
 
 }
 
-@media screen and (max-width: 1135px){
+@media screen and (min-width: 701px) and (max-width: 1135px){
     #home-index{
         .middle-text{
             width: 100%;
@@ -167,6 +171,10 @@
                 // background-repeat: no-repeat;
                 // background-size: cover;
                 padding: 10px;
+                padding: 110px;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
             }
             .inner-text{
                 height: 100%;
