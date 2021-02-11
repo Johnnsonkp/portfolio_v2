@@ -18,6 +18,14 @@
   <body>
     <%= render 'home/header' %>
     <%= yield %>
+    <div class="scroll-1">
+      <h1 class="big">Home <span class="small">01</span></h1>
+      <h1>Projects <span class="small">02</span></h1>
+      <h1 class="display-none">About <span class="small">03</span></h1>
+      <h1 class="display-none">Blog <span class="small">04</span></h1>
+      <h1 class="display-none">Contact <span class="small">05</span></h1> 
+    </div>
+    <%= render 'home/projects' %>
 
   </body>
 </html>
