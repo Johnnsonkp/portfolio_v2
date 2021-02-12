@@ -256,6 +256,30 @@
     background-color: rgba(83, 104, 120, 0.3);
 
 
+    .btn-div{
+        position: absolute;
+        top: 115%;
+        left: 90%;
+        background-color: green;
+        background-image: linear-gradient(to left, rgba(227, 27, 109, 0.2),rgba(227, 27, 109, 0.7));
+        // padding-left: 5px;
+        // padding-right: 5px;
+        // padding-left: 5px;
+        border-radius: 50px;
+        width: 50px;
+        
+    }
+    .day-night{
+        color: #fff;
+        background: black;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .day-night:focus{
+        outline: none;
+    }
 
     .container{
         width: 90%;
@@ -318,18 +342,6 @@
         cursor: pointer;
         justify-content: space-between;
     }
-    // .img {
-    //     width: 200px;
-    //     // height: 600px; 
-    //     margin: 1rem;
-    //     background-color: var(--secondary-color);
-    //     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-    //     position: relative;
-    //     overflow: hidden;
-    //     border-radius: 3px;
-    //     cursor: pointer;
-    //     justify-content: space-between;
-    // }
     .project .img{
         width: 100%;
     }
@@ -445,6 +457,7 @@
         background-color: #373b69;
         background-color: transparent;
         // background-color: rgba(83, 104, 120, 0.3);
+        background-color: rgba(83, 104, 120, 0.3);
         padding: 0.25rem 0.5rem;
         border-radius: 3px;
         font-weight: bold;
@@ -457,7 +470,7 @@
         padding: 45px;
         padding-left: 10px;
         padding-top: 25px;
-        padding-bottom: 15px;
+        padding-bottom: 27px;
         margin-top: 0;
         font-size: 13px;
     }
@@ -481,25 +494,6 @@
     }
 }
 
-// body{
-//     .scroll-1{
-//         position: fixed;
-//         top: 540px;
-//         left: 80px;
-//         z-index: 1;
-//         h1{
-//             color: rgba(255, 0, 0, 0.2);
-//             text-transform: uppercase;
-//             // outline: yellow;
-//         }
-//     }
-//     .small{
-//         font-size: 25px;
-//         position: absolute;
-//         padding-left: 6px;
-//     }
-// }
-
 .custom{
     color: rgba(255, 0, 0, 0.2) !important;
     color: rgba(83, 104, 120, 0.3) !important;
@@ -517,4 +511,14 @@
 
 .display{
     display: block;
+}
+
+.light{
+    background-color: #f5f5f5 !important;
+}
+.font-light{
+    color: black !important;
+}
+.btn-slide{
+    float: right;
 }
