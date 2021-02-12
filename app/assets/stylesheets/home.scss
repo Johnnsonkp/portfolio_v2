@@ -275,7 +275,7 @@
         position: absolute;
         top: 800px;
         left: 80px;
-        z-index: 1;
+        z-index: 0;
         h1{
             color: rgba(255, 0, 0, 0.2);
             text-transform: uppercase;
@@ -296,7 +296,7 @@
 
 
     .main{
-        padding-top: 300px;
+        padding-top: 315px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -384,7 +384,7 @@
         height: 55vh;
         background-image: url('book-cover.jpg');
         background-image: url('items-long-view.png');
-        background-image: url('asap-mob.png');
+        background-image: url('nba-stats.png');
         // background-position: -35px 0px ;
         background-size: 100% 80%;
         background-repeat: no-repeat;
@@ -412,7 +412,8 @@
         height: 55vh;
         background-image: url('book-cover.jpg');
         background-image: url('items-long-view.png');
-        background-image: url('bucket-list.png');
+        background-image: url('nba-stats.png');
+        background-image: url('asap-mob.png');
         // background-position: -35px 0px ;
         background-size: 100% 80%;
         background-repeat: no-repeat;
@@ -502,7 +503,7 @@
     color: rgba(255, 0, 0, 0.2) !important;
 }
 .big{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bolder;
     color: rgba(255, 0, 0, 1) !important;
     color: rgba(83, 104, 120, 0.3) !important;
