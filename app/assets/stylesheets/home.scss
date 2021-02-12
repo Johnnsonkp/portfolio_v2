@@ -248,13 +248,13 @@
 }
 
 #home-projects{
-    height: 200vh;
+    min-height: 190vh;
     width: 100vw;
     margin: auto;
     background-color: #fff;
     background-color: #22254b;
     background-color: rgba(83, 104, 120, 0.3);
-
+    padding-bottom: 100px;
 
     .btn-div{
         position: absolute;
@@ -285,16 +285,6 @@
         width: 90%;
         margin: auto;
     }
-
-    // .main {
-    //     padding-top: 180px;
-    //     display: flex;
-    //     flex-wrap: wrap;
-    //     justify-content: center;
-    //     z-index: -1;
-    //     width: 100%;
-    // }
-    
     .scroll-1{
         position: absolute;
         top: 800px;
@@ -312,12 +302,13 @@
             // padding-bottom: 2px;
             border: 1px solid#e31b6d;
         }
+        .small{
+            font-size: 25px !important;
+            position: absolute;
+            padding-left: 6px;
+        }
     }
-    .small{
-        font-size: 25px;
-        position: absolute;
-        padding-left: 6px;
-    }
+    
 
 
     .main{
