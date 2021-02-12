@@ -284,7 +284,8 @@
         height: 60vh;
         margin: 1rem;
         background-color: var(--secondary-color);
-        box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+        // box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+        box-shadow: 2px 4px 7px 1px black;
         position: relative;
         overflow: hidden;
         border-radius: 3px;
@@ -431,6 +432,7 @@
         padding-top: 25px;
         padding-bottom: 15px;
         margin-top: 0;
+        font-size: 13px;
     }
     .overview {
         background-color: #fff;
