@@ -28,57 +28,57 @@ window.onload=function(){
         middleText.classList.toggle('display-none')
     })
 
-    window.onscroll = function() {addClass()};
+    // window.onscroll = function() {addClass()};
 
-    function addClass () {
-        if (document.body.scrollBottom < 10 || document.documentElement.scrollBottom < 10){
-            projects.classList.add('custom')
-            projects.classList.remove('big')
-        }
+    // function addClass () {
+    //     if (document.body.scrollBottom < 10 || document.documentElement.scrollBottom < 10){
+    //         projects.classList.add('custom')
+    //         projects.classList.remove('big')
+    //     }
         
 
-        if (document.body.scrolltop > 100 || document.documentElement.scrollTop > 100) {
-            home.classList.remove('big')
-            projects.classList.remove('display-none')
+    //     if (document.body.scrolltop > 100 || document.documentElement.scrollTop > 100) {
+    //         home.classList.remove('big')
+    //         projects.classList.remove('display-none')
 
-            about.classList.remove('display-none')
-        }else if (document.body.scrolltop < 100 || document.documentElement.scrollTop < 100) {
-            projects.classList.remove('big')
-            projects.classList.add('custom')
-            home.classList.add('big')
-        }
-        if (document.body.scrolltop > 750 || document.documentElement.scrollTop > 750) {
-            home.classList.add('display-none')
-            projects.classList.remove('big')
-            about.classList.add('big')
-            // projects.classList.add('big')
-        } else{
-            home.classList.remove('display-none')
-            projects.classList.add('big')
-            about.classList.remove('big')
-        }
-        // if (document.body.scrolltop <= 100 || document.documentElement.scrollTop <=100){
-        //     home.classList.add('big')
-        //     // home.classList.remove('display-none')
-        //     projects.classList.remove('big')
-        // } 
-        // if (document.body.scrolltop > 650 || document.documentElement.scrollTop > 650){
-        //     about.classList.remove('display-none')
-        //     about.classList.add('display-block')
-        //     about.classList.add('big')
-        //     // home.classList.remove('display-none')
-        //     projects.classList.remove('big')
-        // }
-        // if (document.body.scrolltop < 650 || document.documentElement.scrollTop < 650){
-        //     about.classList.remove('display-none')
-        //     about.classList.add('display-block')
-        //     about.classList.remove('big')
-        //     // home.classList.remove('display-none')
-        //     projects.classList.add('big')
-        // }
-        // else{
-        //     document.querySelector('.projects').classList.add('')
-        // }  
-    }
+    //         about.classList.remove('display-none')
+    //     }else if (document.body.scrolltop < 100 || document.documentElement.scrollTop < 100) {
+    //         projects.classList.remove('big')
+    //         projects.classList.add('custom')
+    //         home.classList.add('big')
+    //     }
+    //     if (document.body.scrolltop > 750 || document.documentElement.scrollTop > 750) {
+    //         home.classList.add('display-none')
+    //         projects.classList.remove('big')
+    //         about.classList.add('big')
+    //         // projects.classList.add('big')
+    //     } else{
+    //         home.classList.remove('display-none')
+    //         projects.classList.add('big')
+    //         about.classList.remove('big')
+    //     }
+    //     // if (document.body.scrolltop <= 100 || document.documentElement.scrollTop <=100){
+    //     //     home.classList.add('big')
+    //     //     // home.classList.remove('display-none')
+    //     //     projects.classList.remove('big')
+    //     // } 
+    //     // if (document.body.scrolltop > 650 || document.documentElement.scrollTop > 650){
+    //     //     about.classList.remove('display-none')
+    //     //     about.classList.add('display-block')
+    //     //     about.classList.add('big')
+    //     //     // home.classList.remove('display-none')
+    //     //     projects.classList.remove('big')
+    //     // }
+    //     // if (document.body.scrolltop < 650 || document.documentElement.scrollTop < 650){
+    //     //     about.classList.remove('display-none')
+    //     //     about.classList.add('display-block')
+    //     //     about.classList.remove('big')
+    //     //     // home.classList.remove('display-none')
+    //     //     projects.classList.add('big')
+    //     // }
+    //     // else{
+    //     //     document.querySelector('.projects').classList.add('')
+    //     // }  
+    // }
     
 }

@@ -255,10 +255,11 @@
     background-color: #22254b;
     background-color: rgba(83, 104, 120, 0.3);
 
+
+
     .container{
         width: 90%;
         margin: auto;
-        
     }
 
     // .main {
@@ -269,9 +270,33 @@
     //     z-index: -1;
     //     width: 100%;
     // }
+    
+    .scroll-1{
+        position: absolute;
+        top: 800px;
+        left: 80px;
+        z-index: 1;
+        h1{
+            color: rgba(255, 0, 0, 0.2);
+            text-transform: uppercase;
+            // outline: yellow;
+        }
+        hr{
+            margin-top: 15px;
+            // padding-top: 2px;
+            // padding-bottom: 2px;
+            border: 1px solid#e31b6d;
+        }
+    }
+    .small{
+        font-size: 25px;
+        position: absolute;
+        padding-left: 6px;
+    }
+
 
     .main{
-        padding-top: 180px;
+        padding-top: 300px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -454,24 +479,24 @@
     }
 }
 
-body{
-    .scroll-1{
-        position: fixed;
-        top: 540px;
-        left: 80px;
-        z-index: 1;
-        h1{
-            color: rgba(255, 0, 0, 0.2);
-            text-transform: uppercase;
-            // outline: yellow;
-        }
-    }
-    .small{
-        font-size: 25px;
-        position: absolute;
-        padding-left: 6px;
-    }
-}
+// body{
+//     .scroll-1{
+//         position: fixed;
+//         top: 540px;
+//         left: 80px;
+//         z-index: 1;
+//         h1{
+//             color: rgba(255, 0, 0, 0.2);
+//             text-transform: uppercase;
+//             // outline: yellow;
+//         }
+//     }
+//     .small{
+//         font-size: 25px;
+//         position: absolute;
+//         padding-left: 6px;
+//     }
+// }
 
 .custom{
     color: rgba(255, 0, 0, 0.2) !important;
@@ -480,8 +505,8 @@ body{
     font-size: 80px;
     font-weight: bolder;
     color: rgba(255, 0, 0, 1) !important;
-    color: rgba(83, 104, 120, 0.8) !important;
-    text-shadow: 2px 2px #e31b6d;
+    color: rgba(83, 104, 120, 1) !important;
+    text-shadow: 1px 1px #e31b6d;
 }
 
 .display{
