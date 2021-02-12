@@ -278,6 +278,7 @@
         z-index: 0;
         h1{
             color: rgba(255, 0, 0, 0.2);
+            color: rgba(83, 104, 120, 0.2);
             text-transform: uppercase;
             // outline: yellow;
         }
@@ -501,13 +502,17 @@
 
 .custom{
     color: rgba(255, 0, 0, 0.2) !important;
+    color: rgba(83, 104, 120, 0.3) !important;
 }
 .big{
     font-size: 70px;
     font-weight: bolder;
-    color: rgba(255, 0, 0, 1) !important;
-    color: rgba(83, 104, 120, 0.3) !important;
-    text-shadow: 1px 1px #e31b6d;
+    // // color: rgba(255, 0, 0, 1) !important;
+    // // color: rgba(83, 104, 120, 0.3) !important;
+    // text-shadow: 1px 1px #e31b6d;
+    // color: #e31b6d;
+    color: rgb(83, 104, 120);
+    text-shadow: 0.2px 0.2px #e31b6d;
 }
 
 .display{
