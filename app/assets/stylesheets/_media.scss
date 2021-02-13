@@ -1,68 +1,19 @@
 
-// @media screen and (max-width: 375px) {
-//     // Hamburger menu nav
-//     #mainMenu, .right input {
-//         // for the checkbox
-//         display:block;
-        
-//     }
-//     #menuShowHide{
-//         display: none;
-//     }
-//     #menuShowHide+label:before {
-//         content:"Show menu";
-//         cursor: pointer;
-//         text-decoration: none;
-//     }
-//     #menuShowHide ~ #mainMenu {
-//         display: none;
-//     }
-//     #menuShowHide ~ #mainMenu{
-//         display:none;
-        
-//     }
-//     #menuShowHide:checked ~ #mainMenu {
-//         display:block;
-//         position: relative;
-//         bottom: 5px;
-//         float: right;
-//         list-style: none;
-//         color: #fff; 
-//         cursor: pointer;
-//         text-decoration: none;
-//     }
-//     #menuShowHide+label {
-//         // position: relative;
-//         position: absolute;
-//         top: 30px;
-//         left: 300px;
-//         // float: right;
-//         padding: 0.5em;
-//         margin: -4.75em 0.5em 0;
-//         border: transparent;
-//         background: transparent;
-//         color: #FFF;
-//         border-radius: 0.5em;
-//         margin-top: -25px;
-//         cursor: pointer;
-//     }
-//     #menuShowHide+label:active,
-//     #menuShowHide+label:focus,
-//     #menuShowHide+label:hover {
-//         background: black;
-//     }
-//     #menuShowHide+label:after, #menuShowHide+label:before {
-//         content: "";
-//         display: block;
-//         width: 2em;
-//         height: 0.5em;
-//         border: solid #FFF;
-//         border-width: 0.25em 0;
-//     }
-//     #menuShowHide+label:after {
-//         border-top: 0;
-//     }
-// }
+@media screen and (max-width: 500px) {
+    #home-projects{
+        .big{
+            font-size: 3rem;
+        }
+    }
+    #home-projects .scroll-1{
+        padding: 10px !important;
+    }
+    body #home-projects .btn-div{
+        position: absolute;
+        top: 110%;
+        left: 82%;
+    }
+}
 
 
 @media screen and (max-width: 700px){
@@ -150,8 +101,42 @@
         }
         
     }
+    // Home-Projects //
 
-
+    body #home-projects{
+        min-height: 280vh;
+        .main{
+            padding-top: 1080px;
+        }
+        .project{
+            width: 250px;
+            height: 45vh;
+        }
+        .project .img{
+            width: 100%;
+        }
+        .project .main .img-one{
+            height: 60vh;
+        }
+        .project-info span{
+            position: absolute;
+            top: 70%;
+            left: 0;
+            background-color: #373b69;
+            padding-left: 10px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 32px;
+        }
+    }
+    // body .project .main .img-one{
+    //     height: 60vh;
+    // }
+    // body .project-info span{
+    //     position: absolute;
+    //     top: 80%;
+    //     left: 0;
+    // }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1135px){
