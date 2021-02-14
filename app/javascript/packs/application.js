@@ -36,5 +36,20 @@ window.onload=function(){
         projectBody.classList.toggle('light')
         dayNight.classList.toggle('btn-slide')
     })
+
+
+
+    // Scroll down button 
+    const projectsBtn = document.querySelector('.project-btn')
+
+    projectsBtn.addEventListener('click', () => {
+        if (document.body.scrollTop < 100) {
+            window.scrollBy(0, 750);
+        }
+        // alert("its working");
+    })
+
+
+
     
 }

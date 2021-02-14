@@ -23,24 +23,11 @@
                 <input type="checkbox" id="menuShowHide" id="toggle">
                 <label for="menuShowHide"></label> %>
                     <ul id="mainMenu">
-                        <%# <li class="menu-li home-li"><a class="home" href="./index.html">Home</a></li> %>
                         <li><%= link_to "Home", root_path, class:"menu-li home-li"%></li>
-
-                        <%# <li class="menu-li portfolio"><a class="portfolio" href="./pages/all-projects.html">Portfolio</a></li> %>
-
-                        <li><%= link_to "Portfolio", root_path, class:"menu-li portfolio"%></li>
-
-                        <%# <li class="menu-li"><a class="about" href="./pages/about-more.html">About</a></li> %>
+                        <li><%= link_to "Portfolio", home_portfolio_path, class:"menu-li portfolio"%></li>
                         <li><%= link_to "About", root_path, class:"menu-li about"%></li>
-
-
-                        <%# <li class="menu-li"><a class="blog" href="#blog-section">Blog</a></li> %>
                         <li><%= link_to "Blog", root_path, class:"menu-li blog"%></li>
-
-                        <%# <li class="menu-li"><a class="contact" href="#contact-section">Contact</a></li> %>
                         <li><%= link_to "Contact", root_path, class:"menu-li contact"%></li>
-
-                        <%# <li class="resume-button"><a href="./pages/resume.pdf">Resume</a></li> %>
                         <li><%= link_to "Resume", root_path, class:"resume-button"%></li>
                     </ul> 
             </nav>
