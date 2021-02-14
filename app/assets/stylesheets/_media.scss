@@ -1,4 +1,37 @@
-@media screen and (min-width: 375px) and (max-width: 700px){
+@media screen and (max-width: 375px) {
+    body #home-about{
+        width: 375px;
+        overflow-x: hidden;
+        .container{
+            width: 95%;
+            .dev-tools{
+                width: auto;
+                margin: auto;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .dev-tools i{
+                width: 30px;
+                height: 30px;
+                padding: 10px;
+                
+            }
+            .dev-tools div{
+                padding: 5px;
+            }
+            .about-me{
+                flex-wrap: wrap;
+                padding-top: 10px;
+            }
+            .about-me .img{
+                height: 350px;
+                width: 300px;
+            }
+
+        }
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 700px){
     body #home-about{
         min-height: 220vh;
         // .scroll-1{
