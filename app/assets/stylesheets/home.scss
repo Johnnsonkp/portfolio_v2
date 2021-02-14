@@ -557,6 +557,7 @@
         background-color: black;
         border-top: solid 1px #616161;
         padding-bottom: 28px;
+        width: 100%;
     }
     
     #main-footer button {
@@ -576,6 +577,8 @@
         margin-top: 15px;
         display: flex;
         justify-content: space-around;
+        width: 60%;
+        margin: auto;
     }
     #main-footer .footer-container .instagram, .linkedin, .codepen, .github {
         border: 1px solid #252934;
