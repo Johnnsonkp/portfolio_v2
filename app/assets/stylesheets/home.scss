@@ -526,12 +526,21 @@
     width: 100vw;
     margin: auto;
     background-color: rgba(189, 195, 199, 1);
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     .scroll-1{
         position: absolute;
         top: 313%;
         left: 80px;
         left: 15px;
         left: 0px;
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: 0;
         z-index: 0;
         // background-image: linear-gradient(to left, rgba(227, 27, 109, 0.2),rgba(227, 27, 109, 0.7));
         background-image: linear-gradient(to left, rgba(83, 104, 120, 0.1),rgba(83, 104, 120, 0.5));
@@ -565,20 +574,29 @@
         }
     }
     .container{
+        // padding-top: 20px;
         margin-top: 0;
-        width: 95%;
-        margin: auto;
+        width: 98%;
+        // height: 100%;
+        // margin: auto;
         display: flex;
         flex-direction: column;
+        align-self: flex-start;
+        justify-self: flex-start;
+        align-items: flex-start;
+    
     }
     .dev-tools{
         display: flex;
         justify-content: space-around;
         justify-content: space-between;
         margin-top: 300px;
+        margin-top: 20px;
         text-align: center;
-        width: 90%;
+        width: 85%;
+        margin: auto;
         // padding: 10px;
+        padding-top: 18px;
         padding-left: 35px;
         padding-right: 30px;
     }
@@ -614,13 +632,16 @@
     .about-me{
         padding-top: 40px;
         display: flex;
-        width: 95%;
+        width: 90%;
         margin: auto;
         justify-content: space-around;
         align-items: center;
+        .img-wrapper{
+            flex: 0.9;
+        }
         .img{
-            height: 450px;
-            width: 400px;
+            height: 500px;
+            width: 450px;
             background-image: url('about-me.jpeg');
             background-position: center top;
             background-repeat: no-repeat;
@@ -633,6 +654,7 @@
             border: 3px solid#e31b6d;
             // border: 50px solid #373b69;
             border-radius: 10px;
+            
         }
 
         button {
@@ -663,6 +685,7 @@
             font-weight: bold;
         }
         .text{
+            flex: 1.2;
             width: 500px;
             height: 32vh;
             align-self: center;
@@ -672,9 +695,11 @@
             background-image: linear-gradient(to right, rgba(165, 55, 253, 0.4),rgba(165, 55, 253, 0));
             background-image: linear-gradient(to right, rgba(0,0,0,0.1),rgba(0, 0, 0, 0.0));
             width: 60%;
-            padding: 20px;
+            // padding: 20px;
+            padding: 10%;
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
+            margin-left: 2%;
         }
         .say-hi, h1{
             font-size: 70px;

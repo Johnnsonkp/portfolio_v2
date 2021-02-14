@@ -1,4 +1,37 @@
+@media screen and (min-width: 375px) and (max-width: 700px){
+    body #home-about{
+        min-height: 220vh;
+        // .scroll-1{
+        //     position: absolute;
+        //     top: 320%;
+        //     left: 0px;
+        // }
+        .about-me{
+            flex-wrap: wrap;
+            width: 100%;
+            .img{
+                height: 350px;
+                width: 300px;
+            }
+            .text{
+                margin-top: 10px;
+                width: 80%;
+                margin: auto;
+                
+            }
+            .text p{
+                font-size: 18px;
+            }
+            .text h3{
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
 
+    }
+
+
+}
 @media screen and (max-width: 500px) {
     #home-projects{
         .big{
