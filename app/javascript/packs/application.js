@@ -37,17 +37,25 @@ window.onload=function(){
         dayNight.classList.toggle('btn-slide')
     })
 
+    // Scroll up from footer
+    const arrow = document.querySelector('.arrow')
 
+    arrow.addEventListener('click', () => {
+          window.scrollBy(0, - 1000);
+    })
 
     // Scroll down button 
-    const projectsBtn = document.querySelector('.project-btn')
+    // const projectsBtn = document.querySelector('.project-btn')
 
-    projectsBtn.addEventListener('click', () => {
-        if (document.body.scrollTop < 100) {
-            window.scrollBy(0, 750);
-        }
-        // alert("its working");
-    })
+    // projectsBtn.addEventListener('click', () => {
+    //     if (document.body.scrollTop < 100) {
+    //         window.scrollBy(0, 750);
+    //     }else{
+    //       return "nothing"
+    //     }
+    // })
+
+    
 
     // FormSpree JS code
     window.addEventListener("DOMContentLoaded", function() {

@@ -26,13 +26,11 @@
                         <li><%= link_to "Home", root_path, class:"menu-li home-li"%></li>
                         <li><%= link_to "Portfolio", home_portfolio_path, class:"menu-li portfolio"%></li>
                         <li><%= link_to "About", home_about_path, class:"menu-li about"%></li>
-                        <li><%= link_to "Blog", root_path, class:"menu-li blog"%></li>
-                        <li><%= link_to "Contact", root_path, class:"menu-li contact"%></li>
-                        <li><%= link_to "Resume", root_path, class:"resume-button"%></li>
+                        <li><%= link_to "Contact", home_contact_path, class:"menu-li contact"%></li>
+                        <%= link_to 'Resume', asset_path("resume.pdf"), { :class=>"resume-button" } %>
+                        
                     </ul> 
             </nav>
         </div>
-
-        
     </div>
 </section>

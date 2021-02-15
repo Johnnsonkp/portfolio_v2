@@ -425,6 +425,14 @@
         justify-content: space-between;
         // margin-top: 20px;
     }
+    .project a{
+        text-decoration: none;
+        color: #fff;
+        z-index: 2;
+    }
+    .project a:hover{
+        color: blue;
+    }
     .project-info {
         margin-top: 0;
         color: #eee;
@@ -694,7 +702,7 @@
             padding: 10%;
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
-            margin-left: 2%;
+            margin-left: 6%;
         }
         .say-hi, h1{
             font-size: 70px;
@@ -832,9 +840,20 @@
     }
 }
 
+#resume-section{
+    width: 100vw;
+    height: 100vh;
+}
 
-
-
+#resume{
+    background-image: url("nba-stats.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // width: 100vh;
+    height: 500px;
+    width: 450px;
+}
 
 
 
