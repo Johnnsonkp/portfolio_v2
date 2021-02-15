@@ -38,22 +38,22 @@ window.onload=function(){
     })
 
     // Scroll up from footer
-    const arrow = document.querySelector('.arrow')
+    // const arrow = document.querySelector('.arrow')
 
-    arrow.addEventListener('click', () => {
-          window.scrollBy(0, - 1000);
-    })
+    // arrow.addEventListener('click', () => {
+    //       window.scrollBy(0, - 1000);
+    // })
 
     // Scroll down button 
-    // const projectsBtn = document.querySelector('.project-btn')
+    const projectsBtn = document.querySelector('.project-btn')
 
-    // projectsBtn.addEventListener('click', () => {
-    //     if (document.body.scrollTop < 100) {
-    //         window.scrollBy(0, 750);
-    //     }else{
-    //       return "nothing"
-    //     }
-    // })
+    projectsBtn.addEventListener('click', () => {
+        if (document.body.scrollTop < 100) {
+            window.scrollBy(0, 750);
+        }else{
+          return "nothing"
+        }
+    })
 
     
 
